@@ -11,7 +11,7 @@ var ResponsiveReactGridLayout = ReactGridLayout.Responsive;
 class WorldIfGobbet extends React.Component {
 
   render() {
-    let customHeader = <ShareBar />;
+    let customHeader = <ShareBar useFX={true} fxDirection="flip-to-top" fxType="cube" background="#333333" fxDefaultStateBackground="#999999"/>;
     return (
       <Gobbet className="gobbet" showShareBar={false} title={customHeader}>
         <ImageCaption caption="Lorem ipsum dolor sit amet, consectetuer ad." src="http://lorempixel.com/g/300/169/food" textposition="top" />
