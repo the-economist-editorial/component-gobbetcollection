@@ -1,5 +1,4 @@
-@import '@economist/component-gobbet/worldif';
-@import '@economist/component-gobbet/gobbet';
+@import '@economist/component-gobbet';
 @import '@economist/component-sharebar';
 @import '@economist/component-gridcss';
 
