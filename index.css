@@ -1,6 +1,7 @@
 @import '@economist/component-gobbet/worldif';
 @import '@economist/component-gobbet/gobbet';
 @import '@economist/component-sharebar';
+@import '@economist/component-gridcss';
 
 .gobbet h1 {
   height: auto;
