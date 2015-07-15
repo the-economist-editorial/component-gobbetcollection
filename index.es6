@@ -8,7 +8,7 @@ export default class GobbetCollection extends React.Component {
     const customHeader = (<ShareBar useFX={true}
     fxDirection="flip-to-top" fxType="cube" background="#333333" fxDefaultStateBackground="#999999"/>);
     return (
-          <div className="span_12">
+      <div className="span_12">
         <div className="section group span_10">
           <div className="col span_4">
             <Gobbet className="gobbet" title={customHeader}>
