@@ -65,10 +65,9 @@
     "build": "npm-assets ."
   },
   "dependencies": {
-    "@economist/component-gobbet": "^2.0.1",
+    "@economist/component-wifgobbet": "^1.3.2",
     "@economist/component-imagecaption": "^1.1.0",
-    "@economist/component-sharebar": "^1.1.2",
-    "@economist/component-gridcss": "^1.0.1",
+    "@economist/component-gridcss": "^2.0.0",
     "react": "^0.13.3"
   },
   "devDependencies": {

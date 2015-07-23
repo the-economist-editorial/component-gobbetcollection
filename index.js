@@ -12,17 +12,13 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _economistComponentGobbet = require('@economist/component-gobbet');
+var _economistComponentWifgobbet = require('@economist/component-wifgobbet');
 
-var _economistComponentGobbet2 = _interopRequireDefault(_economistComponentGobbet);
+var _economistComponentWifgobbet2 = _interopRequireDefault(_economistComponentWifgobbet);
 
 var _economistComponentImagecaption = require('@economist/component-imagecaption');
 
 var _economistComponentImagecaption2 = _interopRequireDefault(_economistComponentImagecaption);
-
-var _economistComponentSharebar = require('@economist/component-sharebar');
-
-var _economistComponentSharebar2 = _interopRequireDefault(_economistComponentSharebar);
 
 var GobbetCollection = (function (_React$Component) {
   _inherits(GobbetCollection, _React$Component);
@@ -34,73 +30,67 @@ var GobbetCollection = (function (_React$Component) {
   }
 
   GobbetCollection.prototype.render = function render() {
-    var customHeader = _react2['default'].createElement(_economistComponentSharebar2['default'], { useFX: true,
-      fxDirection: 'flip-to-top', fxType: 'cube', background: '#333333', fxDefaultStateBackground: '#999999' });
     return _react2['default'].createElement(
-      'div',
-      { className: 'span_12' },
+      'section',
+      { className: 'margin-l-1 margin-r-1 gutter-l GobbetCollection--list' },
       _react2['default'].createElement(
-        'div',
-        { className: 'section group span_10' },
+        'article',
+        { className: 'col-4' },
         _react2['default'].createElement(
-          'div',
-          { className: 'col span_4' },
-          _react2['default'].createElement(
-            _economistComponentGobbet2['default'],
-            { className: 'gobbet', title: customHeader },
-            _react2['default'].createElement(_economistComponentImagecaption2['default'], { caption: 'Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,',
-              src: 'http://lorempixel.com/g/300/169/food', textposition: 'top' })
-          )
-        ),
+          _economistComponentWifgobbet2['default'],
+          null,
+          _react2['default'].createElement(_economistComponentImagecaption2['default'], { caption: 'Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,',
+            src: 'http://lorempixel.com/g/288/420/cats', textposition: 'top' })
+        )
+      ),
+      _react2['default'].createElement(
+        'article',
+        { className: 'col-4' },
         _react2['default'].createElement(
-          'div',
-          { className: 'col span_4' },
-          _react2['default'].createElement(
-            _economistComponentGobbet2['default'],
-            { className: 'gobbet', title: customHeader },
-            _react2['default'].createElement(_economistComponentImagecaption2['default'], { caption: 'Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,',
-              src: 'http://lorempixel.com/g/300/169/food', textposition: 'top' })
-          )
-        ),
+          _economistComponentWifgobbet2['default'],
+          null,
+          _react2['default'].createElement(_economistComponentImagecaption2['default'], { caption: 'Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,',
+            src: 'http://lorempixel.com/g/288/420/food', textposition: 'top' })
+        )
+      ),
+      _react2['default'].createElement(
+        'article',
+        { className: 'col-4' },
         _react2['default'].createElement(
-          'div',
-          { className: 'col span_4' },
-          _react2['default'].createElement(
-            _economistComponentGobbet2['default'],
-            { className: 'gobbet', title: customHeader },
-            _react2['default'].createElement(_economistComponentImagecaption2['default'], { caption: 'Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,',
-              src: 'http://lorempixel.com/g/300/169/food', textposition: 'top' })
-          )
-        ),
+          _economistComponentWifgobbet2['default'],
+          null,
+          _react2['default'].createElement(_economistComponentImagecaption2['default'], { caption: 'Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,',
+            src: 'http://lorempixel.com/g/288/420/people', textposition: 'top' })
+        )
+      ),
+      _react2['default'].createElement(
+        'article',
+        { className: 'col-4' },
         _react2['default'].createElement(
-          'div',
-          { className: 'col span_4' },
-          _react2['default'].createElement(
-            _economistComponentGobbet2['default'],
-            { className: 'gobbet', title: customHeader },
-            _react2['default'].createElement(_economistComponentImagecaption2['default'], { caption: 'Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,',
-              src: 'http://lorempixel.com/g/300/169/food', textposition: 'top' })
-          )
-        ),
+          _economistComponentWifgobbet2['default'],
+          null,
+          _react2['default'].createElement(_economistComponentImagecaption2['default'], { caption: 'Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,',
+            src: 'http://lorempixel.com/g/288/420/city', textposition: 'top' })
+        )
+      ),
+      _react2['default'].createElement(
+        'article',
+        { className: 'col-4' },
         _react2['default'].createElement(
-          'div',
-          { className: 'col span_4' },
-          _react2['default'].createElement(
-            _economistComponentGobbet2['default'],
-            { className: 'gobbet', title: customHeader },
-            _react2['default'].createElement(_economistComponentImagecaption2['default'], { caption: 'Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,',
-              src: 'http://lorempixel.com/g/300/169/food', textposition: 'top' })
-          )
-        ),
+          _economistComponentWifgobbet2['default'],
+          null,
+          _react2['default'].createElement(_economistComponentImagecaption2['default'], { caption: 'Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,',
+            src: 'http://lorempixel.com/g/288/420/fashion', textposition: 'top' })
+        )
+      ),
+      _react2['default'].createElement(
+        'article',
+        { className: 'col-4' },
         _react2['default'].createElement(
-          'div',
-          { className: 'col span_4' },
-          _react2['default'].createElement(
-            _economistComponentGobbet2['default'],
-            { className: 'gobbet', title: customHeader },
-            _react2['default'].createElement(_economistComponentImagecaption2['default'], { caption: 'Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,',
-              src: 'http://lorempixel.com/g/300/169/food', textposition: 'top' })
-          )
+          _economistComponentWifgobbet2['default'],
+          null,
+          _react2['default'].createElement(_economistComponentImagecaption2['default'], { caption: 'Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,',
+            src: 'http://lorempixel.com/g/288/420/food', textposition: 'top' })
         )
       )
     );
